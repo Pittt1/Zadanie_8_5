@@ -1,19 +1,3 @@
-// script.js file
-
-var name = prompt('Enter your name');
-// alert('Hello, ' + name);
-console.log('Hello, ' + name);
-
-var firstSentence = prompt('I like a song that is called "Only you".');
-
-// break for...
-
-/*
-
-  block comment here...
-
-*/
-
 var a = 7,
 	h = 5,
 	triangleArea;
@@ -22,4 +6,4 @@ var a = 7,
 
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
 
-var secondSentence = prompt("It's " + triangleArea)
+var secondSentence = alert("It's " + triangleArea);
